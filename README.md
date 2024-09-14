@@ -13,5 +13,14 @@ This script is designed to run on the following Unix-based systems:
 -macOS
 -Termux 
 
+##Setup
+Use: python macchanger.py -i <network interface> -m <new_mac_address> 
+
+Explanation: -i, --interface : Network interface to change -m, --mac : New MAC address
+
+Example: python macchanger.py -i eth0 -m 00:11:22:33:44:55
+
+
+
 Operation on Windows systems is not guaranteed. ## Setup To use MAC Changer, you need Python 3 and the `colorama, sys, subprocess, re, optparse` modules. You can install the module with pip. 
 Telegram: t.me/pizza_0day
